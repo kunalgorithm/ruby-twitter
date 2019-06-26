@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.4.0'
 
 gem "devise"
+gem "bootstrap_form"
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
